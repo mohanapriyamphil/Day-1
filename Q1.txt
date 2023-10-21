@@ -1,0 +1,16 @@
+HTTP1.1:
+
+1. It was created in 1997.
+2. It works on the textual format.
+3. There is head of line blocking that blocks all the requests 
+   behind it until it doesn’t get its all resources.
+4. It compresses data by itself.
+
+
+HTTP2:
+
+1. It was created in 2015.
+2. It works on the binary protocol.
+3. It allows multiplexing so one TCP connection is required 
+   for multiple requests.
+4. It uses HPACK for data compression.
